@@ -1,0 +1,97 @@
+body 
+{
+  font-family: "Verdana","Arial","Helvetica","sans-serif";
+  font-color: #444;
+  font-weight: normal;
+  background: #afafaf url(/images/body-background.jpg) repeat scroll center top; 
+}
+h1
+{ 
+	color: #ccc;
+	font-size: 200%;
+	position: relative;
+    text-align: inherit;
+}
+h2 
+{
+    color: #444;
+    font-size: 150%;
+    position: relative;
+    text-align: inherit; 
+}
+h3 
+{
+    color: #D60000;
+    font-size: 120%;
+    position: relative;
+	display:block;
+}
+p 
+{
+    color: #444;
+    font-size: 90%; 
+}
+
+#img_ {
+  border-color: #bbb #ccc #ccc #ddd;
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  float: left;
+  margin: 20px 5px 10px;
+  padding: 6px 7px 8px 6px; 
+}
+
+#img_logo 
+{
+  display: block;
+  float: left;
+  margin: 50px 5px 10px;
+  padding: 6px 7px 8px 6px; 
+ position:center;
+}
+
+#plus
+{
+  	margin:40px 20px;
+	padding:50px;
+	text-align:center; 
+	float: left;
+	border-color: #fff;
+	width:50px;
+	position:center;
+}
+#main
+{
+	background: transparent url(/images/body.png) repeat-y; 
+	display: block;
+	width:720px;
+	margin:20px auto 0;
+	position:relative;
+}
+
+#header 
+{
+     background: transparent url(/images/mikamai-unconventional-everything.png) no-repeat scroll 0 0;
+     display: block;
+     margin: 25px 20px;
+     padding: 13px 0px 13px 0; 
+}
+
+#content
+{
+	margin: 30px auto;
+	padding: 30px 0px 100px 0;
+}
+
+#wrap
+{
+	width:680px;
+	height:300px;
+	display: block;
+	margin:20px auto 0;
+}
+
+
+
+

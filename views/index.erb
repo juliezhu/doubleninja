@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <link href='application.css' media='all' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+	<div id='main'>
+      <div id='header'>
+        <div id='content'>
+          <h1>Design Object of Your Dreams</h1>
+          <p>you can generate the custom design object you always dreamt of</p>
+          <h2><%= @object_name %></h2>
+		<div id='wrap'>
+         <div id='img_'> <img src='<%= @picture_url %>'/> </div>
+		   <div id='plus'><img src='images/plus.png'/></div>
+          <div id='img_logo'><img src='<%= @concept_url %>'/></div> 
+		</div>
+          <h3>description</h3>
+          <p><%= @description %></p>
+        </div>
+      </div>
+   </div>
+  </body>
+</html>
+
+
+    
